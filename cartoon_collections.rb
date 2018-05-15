@@ -5,6 +5,7 @@ def roll_call_dwarves(array)# code an argument here
     output << "#{index + 1}. #{name}"
   end
 end
+end
 
 def summon_captain_planet# code an argument here
   # Your code here
