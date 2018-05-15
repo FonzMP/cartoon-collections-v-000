@@ -3,8 +3,8 @@ def roll_call_dwarves(array)# code an argument here
   output = ""
   array.each_with_index do |name, index|
     output << "#{index + 1}. #{name} "
-    puts output
   end
+  puts output
 end
 
 def summon_captain_planet# code an argument here
