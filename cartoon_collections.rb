@@ -13,7 +13,7 @@ def summon_captain_planet(array)# code an argument here
   array.each do |item|
     holder_array << "#{item}.titleize"
   end
-  holder_array
+  return holder_array
 
 end
 
