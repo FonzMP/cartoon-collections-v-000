@@ -19,6 +19,7 @@ def long_planeteer_calls(array)# code an argument here
   # Your code here
   holder = []
   array.each do |word|
+    length = word.length
     if word.length > 4
       holder << word
       puts word
