@@ -12,6 +12,7 @@ def summon_captain_planet(array)# code an argument here
   holder_array = []
   array.each do |item|
     capital = item.titleize
+    holder_array << "#{capital}!"
   end
   return holder_array
 end
