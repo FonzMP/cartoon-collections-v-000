@@ -17,6 +17,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
+  holder = []
   array.each do |word|
     if word.length > 4
       holder << word
@@ -24,7 +25,7 @@ def long_planeteer_calls(array)# code an argument here
       false
     end
 
-    if 
+    if
 end
 
 def find_the_cheese# code an argument here
