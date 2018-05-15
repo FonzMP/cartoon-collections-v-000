@@ -26,12 +26,6 @@ def long_planeteer_calls(array)# code an argument here
     else
       false
     end
-
-    if holder.length >= 1
-      return true
-    else
-      return false
-    end
   end
 end
 
