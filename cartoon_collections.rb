@@ -11,7 +11,10 @@ def summon_captain_planet(array)# code an argument here
   # Your code here'
   holder_array = []
   array.each do |item|
-    
+    holder_array << "#{item}.titleize"
+  end
+  holder_array
+
 end
 
 def long_planeteer_calls# code an argument here
