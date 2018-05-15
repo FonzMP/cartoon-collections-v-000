@@ -27,6 +27,10 @@ def long_planeteer_calls(array)# code an argument here
     end
   end
   holder_length = holder.length
+  if holder_length > 0
+    return true
+  else
+    return false
 end
 
 def find_the_cheese# code an argument here
