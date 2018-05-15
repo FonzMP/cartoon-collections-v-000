@@ -25,7 +25,12 @@ def long_planeteer_calls(array)# code an argument here
       false
     end
 
-    if holder.include? true
+    if holder.length > 1
+      return true
+    else
+      return false
+
+    end
 end
 
 def find_the_cheese# code an argument here
