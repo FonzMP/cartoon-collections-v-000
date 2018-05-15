@@ -22,7 +22,7 @@ def long_planeteer_calls(array)# code an argument here
     length = word.length
     if length > 4
       holder.push(word)
-      puts holder
+      return holder
     else
       false
     end
