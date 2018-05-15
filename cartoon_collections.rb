@@ -21,7 +21,7 @@ def long_planeteer_calls(array)# code an argument here
   array.each do |word|
     length = word.length
     if length > 4
-      holder << word
+      holder.push(word)
       puts holder
     else
       false
