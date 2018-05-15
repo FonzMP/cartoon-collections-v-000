@@ -22,11 +22,11 @@ def long_planeteer_calls(array)# code an argument here
     length = word.length
     if length > 4
       holder.push(word)
-      return holder
     else
       false
     end
   end
+  holder_length = holder.length
 end
 
 def find_the_cheese# code an argument here
